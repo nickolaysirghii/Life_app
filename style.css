@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.5vw;
+}
+.frontPageContainer{
+    background-color: rgb(237, 237, 79);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.frontPageContainer button{
+    height: 10vw;
+    width: 10vw;
+    background-color: black;
+    color: white;
+    font-size: 2vw;
+    border-radius: 6px;
+}
+.secondPageContainer{
+    border: 3px solid red;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.secondPageContainer p {
+    position: absolute;
+    top: 1vw;
+    left: 1vw;
+    cursor: pointer;
+    background-color: rgb(45, 45, 90);
+    color: white;
+    width: 4vw;
+    height: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2vw;
+}
+.secondPageContainer button {
+    width: 15vw;
+    height: 10vw;
+}
+
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*                               statistics styles                                    */
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+.statisticMainContainer{
+    width: 100%;
+    min-height: 100vw;
+    border: 4px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding-top: 4vw;
+    gap: 1vw;
+}
+.backButton{
+    position: absolute;
+    top: 1vw;
+    left: 1vw;
+    cursor: pointer;
+    background-color: rgb(45, 45, 90);
+    color: white;
+    width: 4vw;
+    height: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2vw;
+  
+}
+.dayContainer{
+    height: 2vw;
+    width: 90%;
+    background-color: rgb(214, 213, 213);
+    display: grid;
+    grid-template-columns: repeat(1440,1fr);
+}
+.sleep{
+    background-color: green;
+}
+.work{
+    background-color: blue;
+}
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+
+.goalContainer{
+    height: 2vw;
+    width: 90%;
+    background-color: aqua;
+}
