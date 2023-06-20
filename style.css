@@ -55,13 +55,13 @@
 .statisticMainContainer{
     width: 100%;
     min-height: 100vw;
-    border: 4px solid black;
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
     padding-top: 4vw;
     gap: 1vw;
+    background-color: black;
 }
 .backButton{
     position: absolute;
@@ -78,6 +78,29 @@
     border-radius: 2vw;
   
 }
+.infoabout{
+    width: 100%;
+    height: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.cont{
+    display: flex;
+    height: 30%;
+    align-items: center;
+    gap: 1vw;
+    cursor: pointer;
+
+}
+.cont div{
+    height: 100%;
+    width: 3vw;
+    border-radius: 50%;
+}
+.cont p {
+    color: white;
+}
 .dayContainer{
     height: 2vw;
     width: 90%;
@@ -89,14 +112,38 @@
     background-color: green;
 }
 .work{
-    background-color: blue;
+    background-color: rgb(101, 94, 101);
+}
+.learnEnglish{
+    background-color: rgb(133, 133, 161);
+}
+.javaScript{
+    background-color: greenyellow;
+}
+.react{
+    background: rgb(229, 45, 45);
 }
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
-
-
-
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*                               TimeMoney styles                                    */
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 .goalContainer{
     height: 2vw;
     width: 90%;
-    background-color: aqua;
+    display: flex;
 }
+.dateContainer{
+height: 100%;
+width: 9%;
+background-color: hsl(222, 47%, 36%);
+color: white;
+cursor: pointer;
+}
+.progressContainer{
+height: 100%;
+width: 91%;
+display: flex;
+background-color: rgb(169, 229, 228);
+}
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
