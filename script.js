@@ -743,7 +743,7 @@ const mainDataArray = [
             title:"Sleap",
             color: "green",
             operation: ()=>{
-               console.log("sleap")
+               mainDataArray[4].functions_store.hoursOfSleap()
             }
          },
          {
@@ -843,7 +843,7 @@ const mainDataArray = [
             const learn_end = (el.statistics.learn.english[2]*60)+(el.statistics.learn.english[3]);
             const learn1 = document.createElement("div");
             learn1.classList.add("learnEnglish");
-            learn1.innerText = "E1";
+            learn1.innerText = "English1";
             learn1.style.gridColumn = `${learn_begin}/${learn_end}`;
             learn1.style.gridRow = "1/2"
             dayContainer.append(learn1);
@@ -853,14 +853,14 @@ const mainDataArray = [
           const learn_end1 = (el.statistics.learn.english[2]*60)+(el.statistics.learn.english[3]);
           const learn1 = document.createElement("div");
           learn1.classList.add("learnEnglish");
-          learn1.innerText = "E1";
+          learn1.innerText = "English1";
           learn1.style.gridColumn = `${learn_begin1}/${learn_end1}`;
           learn1.style.gridRow = "1/2"
           const learn_begin2 = (el.statistics.learn.english[4]*60)+(el.statistics.learn.english[5]);
           const learn_end2 = (el.statistics.learn.english[6]*60)+(el.statistics.learn.english[7]);
           const learn2 = document.createElement("div");
           learn2.classList.add("learnEnglish");
-          learn2.innerText = "E2";
+          learn2.innerText = "English2";
           learn2.style.gridColumn = `${learn_begin2}/${learn_end2}`;
           learn2.style.gridRow = "1/2"
           dayContainer.append(learn1,learn2);
@@ -870,7 +870,7 @@ const mainDataArray = [
           const java_end = (el.statistics.learn.javaScript[2]*60)+(el.statistics.learn.javaScript[3]);
           const java1 = document.createElement("div");
           java1.classList.add("javaScript");
-          java1.innerText = "J1"
+          java1.innerText = "JavaScript1"
           java1.style.gridColumn = `${java_begin}/${java_end}`;
           java1.style.gridRow = "1/2"
           dayContainer.append(java1);
@@ -880,14 +880,14 @@ const mainDataArray = [
         const java_end1 = (el.statistics.learn.javaScript[2]*60)+(el.statistics.learn.javaScript[3]);
         const java1 = document.createElement("div");
         java1.classList.add("javaScript");
-        java1.innerText = "J1"
+        java1.innerText = "JavaScript1"
         java1.style.gridColumn = `${java_begin1}/${java_end1}`;
         java1.style.gridRow = "1/2"
         const java_begin2 = (el.statistics.learn.javaScript[4]*60)+(el.statistics.learn.javaScript[5]);
         const java_end2 = (el.statistics.learn.javaScript[6]*60)+(el.statistics.learn.javaScript[7]);
         const java2 = document.createElement("div");
         java2.classList.add("javaScript");
-        java2.innerText = "J2"
+        java2.innerText = "JavaScript2"
         java2.style.gridColumn = `${java_begin2}/${java_end2}`;
         java2.style.gridRow = "1/2"
         dayContainer.append(java1,java2);
@@ -897,7 +897,7 @@ const mainDataArray = [
        const react_end = (el.statistics.learn.react[2]*60)+(el.statistics.learn.react[3]);
        const react1 = document.createElement("div");
        react1.classList.add("react");
-       react1.innerText = "R1"
+       react1.innerText = "React1"
        react1.style.gridColumn = `${react_begin}/${react_end}`;
        react1.style.gridRow = "1/2"
        dayContainer.append(react1);
@@ -907,14 +907,14 @@ const mainDataArray = [
      const react_end1 = (el.statistics.learn.react[2]*60)+(el.statistics.learn.react[3]);
      const react1 = document.createElement("div");
      react1.classList.add("react");
-     react1.innerText = "R1"
+     react1.innerText = "React1"
      react1.style.gridColumn = `${react_begin1}/${react_end1}`;
      react1.style.gridRow = "1/2"
      const react_begin2 = (el.statistics.learn.react[4]*60)+(el.statistics.learn.react[5]);
      const react_end2 = (el.statistics.learn.react[6]*60)+(el.statistics.learn.react[7]);
      const react2 = document.createElement("div");
      react2.classList.add("react");
-     react2.innerText = "R2"
+     react2.innerText = "React2"
      react2.style.gridColumn = `${react_begin2}/${react_end2}`;
      react2.style.gridRow = "1/2"
      dayContainer.append(react1,react2);
@@ -947,8 +947,44 @@ const mainDataArray = [
     id:4,
     title:"Society",
     pageRendering:()=>{
-        
-        console.log("Society")
+      mainContainer.innerHTML = "" ;
+      const statContainer = document.createElement("div");
+      statContainer.classList.add("statisticMainContainer");
+      const but = document.createElement("button");
+      but.classList.add("backButton");
+      but.innerText = "back"
+      but.addEventListener("click",mainDataArray[4].functions_store.secondPage)
+      statContainer.append(but);
+      mainContainer.append(statContainer);
+
+      const societyGoals = [
+         {
+            id: 1, 
+            title: "Apartment",
+            moneyPerMonth: 1000,
+         },
+         {
+            id: 2, 
+            title: "Job",
+            moneyPerMonth: 1000,
+         },
+         {
+            id: 3, 
+            title: "Financiar enshurance",
+            moneyPerMonth: 1000,
+         },
+      ];
+      societyGoals.forEach(el => {
+         const goalWindow = document.createElement("div");
+         const goaltitle = document.createElement("p");
+         const progressContainer = document.createElement("div");
+         goalWindow.classList.add("goalWindow");
+         progressContainer.classList.add("progressContainer");
+         goaltitle.innerText = el.title;
+
+         goalWindow.append(goaltitle,progressContainer);
+         statContainer.append(goalWindow);
+      })
     }
    },
    {
@@ -1333,6 +1369,106 @@ const mainDataArray = [
          goalContainer.append(dateContainer,progressContainer)
          timeContainer.append(goalContainer);
        })
+
+        },
+        hoursOfSleap:()=>{
+            mainContainer.innerHTML = "" ;
+            const statContainer = document.createElement("div");
+            const infoabout = document.createElement("div");
+            infoabout.classList.add("infoabout");
+            statContainer.classList.add("statisticMainContainer");
+            const but = document.createElement("button");
+            but.classList.add("backButton");
+            but.innerText = "back"
+            but.addEventListener("click",mainDataArray[0].pageRendering)
+            statContainer.append(but,infoabout);
+            mainContainer.append(statContainer);
+            const uppbuttons = [
+               {
+                  id:1,
+                  title:"Sleap",
+                  color: "green",
+                  operation: ()=>{
+                     mainDataArray[4].functions_store.hoursOfSleap()
+                  }
+               },
+               {
+                  id:2,
+                  title:"Work",
+                  color: "gray",
+                  operation: ()=>{
+                     console.log("work")
+                  }
+               },
+               {
+                  id:3,
+                  title:"Learn",
+                  color: "red",
+                  operation: ()=>{
+                     console.log("Learn")
+                  }
+               },
+               {
+                  id:4,
+                  title:"Free",
+                  color: "white",
+                  operation: ()=>{
+                     console.log("Free")
+                  }
+               }
+            ];
+            uppbuttons.forEach(el => {
+               const cont = document.createElement("div");
+               const par = document.createElement("p");
+               const color = document.createElement("div");
+               color.style.backgroundColor = el.color;
+               par.innerText = el.title;
+               cont.classList.add("cont");
+               cont.append(par,color);
+               infoabout.append(cont);
+               cont.addEventListener("click",el.operation)
+               
+            });
+            mainDataArray[0].statisticData.forEach(el => {
+               const dayContainer = document.createElement('div');
+               dayContainer.classList.add("dayContainer");
+               const sllleap = document.createElement("div");
+               sllleap.classList.add("justSleap");
+
+
+              if(el.statistics.sleep.length === 4){
+
+               const lseapLength1 = (el.statistics.sleep[0]*60)+el.statistics.sleep[1];
+               const lseapLength2 = (el.statistics.sleep[2]*60)+el.statistics.sleep[3];
+               const tot = lseapLength2-lseapLength1;
+               const hoursgar = Math.round(tot/60);
+               sllleap.innerText = `${hoursgar} hours`;
+               sllleap.style.gridColumn = `1/${tot}`
+            };
+            if(el.statistics.sleep.length === 8){
+               const lseapLength1 = (el.statistics.sleep[0]*60)+el.statistics.sleep[1];
+               const lseapLength2 = (el.statistics.sleep[2]*60)+el.statistics.sleep[3];
+
+               const lseapLength3 = (el.statistics.sleep[4]*60)+el.statistics.sleep[5];
+               const lseapLength4 = (el.statistics.sleep[6]*60)+el.statistics.sleep[7];
+
+               const tot2 = lseapLength2-lseapLength1;
+               const tot3 = lseapLength4-lseapLength3;
+               const total = tot2+tot3;
+               sllleap.style.gridColumn = `1/${total}`
+
+               const hoursgar = Math.round(total/60);
+               sllleap.innerText = `${hoursgar} hours`;
+            }
+               
+
+               
+               
+
+
+                dayContainer.append(sllleap);
+               statContainer.append(dayContainer);
+            })
 
         }
    }
