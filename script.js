@@ -63,6 +63,666 @@ const mainDataArray = [
             comment: "We began",
             tasks_today: []
         },
+        {
+         id:2,
+         date:"2023-06-21",
+         statistics:{
+             sleep: [15,30,19,0],
+             work: [0,1,8,0,22,0,24,0],
+             learn: 
+               {
+                  english:[],
+                  javaScript: [],
+                  react: []
+               }
+             
+         },
+         timeMoney:{
+          income:{
+             random: 0,
+             invest: 0,
+             borrowed: 0
+             
+          },
+          outcome:[
+             {
+                 eat: 37,
+                 rent: 0,
+                 internet: 0,
+                 orange: 0,
+                 locomotion: 0,
+              },
+              {
+                 netflix: 0,
+                 telran: 0,
+                 lifeXP: 0,
+              },
+              {
+                 clothes: 0,
+                 hygiene: 0,
+                 fun: 7.5,
+              },
+              {
+                 charity: 0,
+                 lost: 0,
+                 lent: 0
+              }
+          ]
+         },
+         work:{
+             hoursToday: 8,
+             salaryPerHour: 19,
+             premium: 0,
+             salary: 0,
+         },
+         comment: "",
+         tasks_today: []
+     },
+     {
+      id:3,
+      date:"2023-06-22",
+      statistics:{
+          sleep: [7,30,10,51,16,45,21,0],
+          work: [0,1,6,0,22,0,24,0],
+          learn: 
+            {
+               english:[],
+               javaScript: [],
+               react: [11,55,16,30]
+            }
+          
+      },
+      timeMoney:{
+       income:{
+          random: 0,
+          invest: 0,
+          borrowed: 0
+          
+       },
+       outcome:[
+          {
+              eat: 6,
+              rent: 0,
+              internet: 0,
+              orange: 0,
+              locomotion: 0,
+           },
+           {
+              netflix: 60,
+              telran: 0,
+              lifeXP: 0,
+           },
+           {
+              clothes: 0,
+              hygiene: 0,
+              fun: 6
+           },
+           {
+              charity: 0,
+              lost: 0,
+              lent: 3
+           }
+       ]
+      },
+      work:{
+          hoursToday: 8,
+          salaryPerHour: 19,
+          premium: 0,
+          salary: 0,
+      },
+      comment: "",
+      tasks_today: []
+  },
+  {
+   id:4,
+   date:"2023-06-23",
+   statistics:{
+       sleep: [8,30,11,0,17,30,20,45],
+       work: [0,1,5,50,22,0,24,0],
+       learn: 
+         {
+            english:[16,0,17,0],
+            javaScript: [],
+            react: [11,6,14,56]
+         }
+       
+   },
+   timeMoney:{
+    income:{
+       random: 0,
+       invest: 0,
+       borrowed: 0
+       
+    },
+    outcome:[
+       {
+           eat: 52,
+           rent: 0,
+           internet: 0,
+           orange: 0,
+           locomotion: 0,
+        },
+        {
+           netflix: 0,
+           telran: 1331,
+           lifeXP: 0,
+        },
+        {
+           clothes: 0,
+           hygiene: 0,
+           fun: 3.5,
+        },
+        {
+           charity: 0,
+           lost: 0,
+           lent: 2.8,
+        }
+    ]
+   },
+   work:{
+       hoursToday: 7.5,
+       salaryPerHour: 19,
+       premium: 0,
+       salary: 0,
+   },
+   comment: "",
+   tasks_today: []
+},
+{
+   id:5,
+   date:"2023-06-24",
+   statistics:{
+       sleep: [6,15,11,21,16,15,21,40],
+       work: [0,1,5,30],
+       learn: 
+         {
+            english:[15,0,15,45],
+            javaScript: [],
+            react: [12,10,14,12,22,0,23,22]
+         }
+       
+   },
+   timeMoney:{
+    income:{
+       random: 3,
+       invest: 0,
+       borrowed: 0
+       
+    },
+    outcome:[
+       {
+           eat: 3.5,
+           rent: 0,
+           internet: 0,
+           orange: 0,
+           locomotion: 0,
+        },
+        {
+           netflix: 0,
+           telran: 0,
+           lifeXP: 0,
+        },
+        {
+           clothes: 0,
+           hygiene: 0,
+           fun: 0
+        },
+        {
+           charity: 0,
+           lost: 0,
+           lent: 0
+        }
+    ]
+   },
+   work:{
+       hoursToday: 0,
+       salaryPerHour: 19,
+       premium: 0,
+       salary: 0,
+   },
+   comment: "",
+   tasks_today: []
+},
+{
+   id:6,
+   date:"2023-06-25",
+   statistics:{
+       sleep: [0,50,6,0],
+       work: [],
+       learn: 
+         {
+            english:[6,20,7,39],
+            javaScript: [8,8,11,13],
+            react: []
+         }
+       
+   },
+   timeMoney:{
+    income:{
+       random: 0,
+       invest: 0,
+       borrowed: 0
+       
+    },
+    outcome:[
+       {
+           eat: 0,
+           rent: 0,
+           internet: 0,
+           orange: 0,
+           locomotion: 0,
+        },
+        {
+           netflix: 0,
+           telran: 0,
+           lifeXP: 0,
+        },
+        {
+           clothes: 0,
+           hygiene: 0,
+           fun: 0
+        },
+        {
+           charity: 0,
+           lost: 0,
+           lent: 0
+        }
+    ]
+   },
+   work:{
+       hoursToday: 5,
+       salaryPerHour: 19,
+       premium: 0,
+       salary: 0,
+   },
+   comment: "",
+   tasks_today: []
+},
+{
+   id:7,
+   date:"2023-06-26",
+   statistics:{
+       sleep: [],
+       work: [],
+       learn: 
+         {
+            english:[],
+            javaScript: [],
+            react: []
+         }
+       
+   },
+   timeMoney:{
+    income:{
+       random: 0,
+       invest: 0,
+       borrowed: 0
+       
+    },
+    outcome:[
+       {
+           eat: 0,
+           rent: 0,
+           internet: 0,
+           orange: 0,
+           locomotion: 0,
+        },
+        {
+           netflix: 0,
+           telran: 0,
+           lifeXP: 0,
+        },
+        {
+           clothes: 0,
+           hygiene: 0,
+           fun: 0
+        },
+        {
+           charity: 0,
+           lost: 0,
+           lent: 0
+        }
+    ]
+   },
+   work:{
+       hoursToday: 0,
+       salaryPerHour: 19,
+       premium: 0,
+       salary: 0,
+   },
+   comment: "",
+   tasks_today: []
+},
+{
+   id:8,
+   date:"2023-06-27",
+   statistics:{
+       sleep: [],
+       work: [],
+       learn: 
+         {
+            english:[],
+            javaScript: [],
+            react: []
+         }
+       
+   },
+   timeMoney:{
+    income:{
+       random: 0,
+       invest: 0,
+       borrowed: 0
+       
+    },
+    outcome:[
+       {
+           eat: 0,
+           rent: 0,
+           internet: 0,
+           orange: 0,
+           locomotion: 0,
+        },
+        {
+           netflix: 0,
+           telran: 0,
+           lifeXP: 0,
+        },
+        {
+           clothes: 0,
+           hygiene: 0,
+           fun: 0
+        },
+        {
+           charity: 0,
+           lost: 0,
+           lent: 0
+        }
+    ]
+   },
+   work:{
+       hoursToday: 0,
+       salaryPerHour: 19,
+       premium: 0,
+       salary: 0,
+   },
+   comment: "",
+   tasks_today: []
+},
+{
+   id:9,
+   date:"2023-06-28",
+   statistics:{
+       sleep: [],
+       work: [],
+       learn: 
+         {
+            english:[],
+            javaScript: [],
+            react: []
+         }
+       
+   },
+   timeMoney:{
+    income:{
+       random: 0,
+       invest: 0,
+       borrowed: 0
+       
+    },
+    outcome:[
+       {
+           eat: 0,
+           rent: 0,
+           internet: 0,
+           orange: 0,
+           locomotion: 0,
+        },
+        {
+           netflix: 0,
+           telran: 0,
+           lifeXP: 0,
+        },
+        {
+           clothes: 0,
+           hygiene: 0,
+           fun: 0
+        },
+        {
+           charity: 0,
+           lost: 0,
+           lent: 0
+        }
+    ]
+   },
+   work:{
+       hoursToday: 0,
+       salaryPerHour: 19,
+       premium: 0,
+       salary: 0,
+   },
+   comment: "",
+   tasks_today: []
+},
+{
+   id:10,
+   date:"2023-06-29",
+   statistics:{
+       sleep: [],
+       work: [],
+       learn: 
+         {
+            english:[],
+            javaScript: [],
+            react: []
+         }
+       
+   },
+   timeMoney:{
+    income:{
+       random: 0,
+       invest: 0,
+       borrowed: 0
+       
+    },
+    outcome:[
+       {
+           eat: 0,
+           rent: 0,
+           internet: 0,
+           orange: 0,
+           locomotion: 0,
+        },
+        {
+           netflix: 0,
+           telran: 0,
+           lifeXP: 0,
+        },
+        {
+           clothes: 0,
+           hygiene: 0,
+           fun: 0
+        },
+        {
+           charity: 0,
+           lost: 0,
+           lent: 0
+        }
+    ]
+   },
+   work:{
+       hoursToday: 0,
+       salaryPerHour: 19,
+       premium: 0,
+       salary: 0,
+   },
+   comment: "",
+   tasks_today: []
+},
+{
+   id:11,
+   date:"2023-06-30",
+   statistics:{
+       sleep: [],
+       work: [],
+       learn: 
+         {
+            english:[],
+            javaScript: [],
+            react: []
+         }
+       
+   },
+   timeMoney:{
+    income:{
+       random: 0,
+       invest: 0,
+       borrowed: 0
+       
+    },
+    outcome:[
+       {
+           eat: 0,
+           rent: 0,
+           internet: 0,
+           orange: 0,
+           locomotion: 0,
+        },
+        {
+           netflix: 0,
+           telran: 0,
+           lifeXP: 0,
+        },
+        {
+           clothes: 0,
+           hygiene: 0,
+           fun: 0
+        },
+        {
+           charity: 0,
+           lost: 0,
+           lent: 0
+        }
+    ]
+   },
+   work:{
+       hoursToday: 0,
+       salaryPerHour: 19,
+       premium: 0,
+       salary: 0,
+   },
+   comment: "",
+   tasks_today: []
+},
+{
+   id:12,
+   date:"2023-07-1",
+   statistics:{
+       sleep: [],
+       work: [],
+       learn: 
+         {
+            english:[],
+            javaScript: [],
+            react: []
+         }
+       
+   },
+   timeMoney:{
+    income:{
+       random: 0,
+       invest: 0,
+       borrowed: 0
+       
+    },
+    outcome:[
+       {
+           eat: 0,
+           rent: 0,
+           internet: 0,
+           orange: 0,
+           locomotion: 0,
+        },
+        {
+           netflix: 0,
+           telran: 0,
+           lifeXP: 0,
+        },
+        {
+           clothes: 0,
+           hygiene: 0,
+           fun: 0
+        },
+        {
+           charity: 0,
+           lost: 0,
+           lent: 0
+        }
+    ]
+   },
+   work:{
+       hoursToday: 0,
+       salaryPerHour: 19,
+       premium: 0,
+       salary: 0,
+   },
+   comment: "",
+   tasks_today: []
+},
+{
+   id:13,
+   date:"2023-07-2",
+   statistics:{
+       sleep: [],
+       work: [],
+       learn: 
+         {
+            english:[],
+            javaScript: [],
+            react: []
+         }
+       
+   },
+   timeMoney:{
+    income:{
+       random: 0,
+       invest: 0,
+       borrowed: 0
+       
+    },
+    outcome:[
+       {
+           eat: 0,
+           rent: 0,
+           internet: 0,
+           orange: 0,
+           locomotion: 0,
+        },
+        {
+           netflix: 0,
+           telran: 0,
+           lifeXP: 0,
+        },
+        {
+           clothes: 0,
+           hygiene: 0,
+           fun: 0
+        },
+        {
+           charity: 0,
+           lost: 0,
+           lent: 0
+        }
+    ]
+   },
+   work:{
+       hoursToday: 0,
+       salaryPerHour: 19,
+       premium: 0,
+       salary: 0,
+   },
+   comment: "",
+   tasks_today: []
+},
   
     ],
     pageRendering:()=>{
@@ -297,18 +957,60 @@ const mainDataArray = [
     pageRendering:()=>{
       mainContainer.innerHTML = "" ;
       const timeContainer = document.createElement("div");
+      const infocontiner = document.createElement("div");
+      infocontiner.classList.add("timeInfoabove");
       timeContainer.classList.add("statisticMainContainer");
       const but = document.createElement("button");
       but.classList.add("backButton");
       but.innerText = "back"
       but.addEventListener("click",mainDataArray[4].functions_store.secondPage)
-      timeContainer.append(but);
+      timeContainer.append(infocontiner,but);
       mainContainer.append(timeContainer);
 
+     const aboveButtons = [
+      {
+         id:1,
+         title: "Work hours",
+         color: "green",
+         operate: ()=>{
+            mainDataArray[4].functions_store.hoursOfWork();
+         }
+      },
+      {
+         id:2,
+         title: "Outcome",
+         color: "red",
+         operate: ()=>{
+            mainDataArray[4].functions_store.outcome();
+         }
+      },
+      {
+         id:3,
+         title: "Income",
+         color: "gold",
+         operate: ()=>{
+            mainDataArray[4].functions_store.income();
+         }
+      },
+     ];
+     aboveButtons.forEach(el => {
+      const par = document.createElement("p");
+      const barrel = document.createElement("div");
+      const conta = document.createElement("div");
+      par.innerText = el.title;
+      barrel.style.backgroundColor = el.color;
+      conta.classList.add("conElem");
+      conta.addEventListener("click", el.operate);
+
+      conta.append(par,barrel);
+      infocontiner.append(conta)
+     })
+/*===========================goal statistic===================================== */
+
    
-      let MainStait =  3258; //20.06.2023
+      let MainStait =  2679; //20.06.2023
       let IMustTake = 2527; //primerno peredelati!!!
-      const theGoal = 10000;
+      const theGoal = 8000;
 
 
       mainDataArray[0].statisticData.forEach(el => {
@@ -325,7 +1027,6 @@ const mainDataArray = [
       const goalContainer = document.createElement("div");
       const dateContainer = document.createElement("div");
       const progressContainer = document.createElement("div");
-      dateContainer.addEventListener("click",mainDataArray[4].functions_store.date_money_info);
       dateContainer.classList.add("dateContainer");
       progressContainer.classList.add("progressContainer");
       goalContainer.classList.add("goalContainer");
@@ -387,11 +1088,255 @@ const mainDataArray = [
                 mainContainer.append(container);
         })
         },
-        date_money_info: ()=>{
-         console.log("hallo from moneyDate")
+        hoursOfWork:()=>{
+         mainContainer.innerHTML = "" ;
+         const timeContainer = document.createElement("div");
+         const infocontiner = document.createElement("div");
+         infocontiner.classList.add("timeInfoabove");
+         timeContainer.classList.add("statisticMainContainer");
+         const but = document.createElement("button");
+         but.classList.add("backButton");
+         but.innerText = "back"
+         but.addEventListener("click",mainDataArray[4].pageRendering)
+         timeContainer.append(infocontiner,but);
+         mainContainer.append(timeContainer);
+         const aboveButtons = [
+            {
+               id:1,
+               title: "Work hours",
+               color: "green",
+               operate: ()=>{
+                  mainDataArray[4].functions_store.hoursOfWork();
+               }
+            },
+            {
+               id:2,
+               title: "Outcome",
+               color: "red",
+               operate: ()=>{
+                  mainDataArray[4].functions_store.outcome();
+               }
+            },
+            {
+               id:3,
+               title: "Income",
+               color: "gold",
+               operate: ()=>{
+                  mainDataArray[4].functions_store.income();
+               }
+            },
+           ];
+        aboveButtons.forEach(el => {
+         const par = document.createElement("p");
+         const barrel = document.createElement("div");
+         const conta = document.createElement("div");
+         par.innerText = el.title;
+         barrel.style.backgroundColor = el.color;
+         conta.classList.add("conElem");
+         conta.addEventListener("click", el.operate);
+   
+         conta.append(par,barrel);
+         infocontiner.append(conta)
+        });
+         
+
+        let hoursTotal = 0;
+        const hoursGoal = 250;
+
+        mainDataArray[0].statisticData.forEach(el => {
+
+
+        const goalContainer = document.createElement("div");
+        const dateContainer = document.createElement("div");
+        const progressContainer = document.createElement("div");
+        dateContainer.classList.add("dateContainer");
+        progressContainer.classList.add("progressContainer");
+        goalContainer.classList.add("goalContainer");
+        dateContainer.innerText = el.date;
+
+        const hoursNow = document.createElement("div");
+        hoursNow.classList.add("justHours");
+        hoursNow.innerText = el.work.hoursToday;
+        
+        hoursTotal += el.work.hoursToday;
+        const hourslong = document.createElement("div");
+        hourslong.classList.add("hoursLong");
+
+        const hoursloPrc = hoursTotal/(hoursGoal/100)
+        hourslong.style.width = `${hoursloPrc}%`;
+        hourslong.innerText = hoursTotal
+
+        progressContainer.append(hourslong);
+        goalContainer.append(dateContainer,hoursNow,progressContainer)
+        timeContainer.append(goalContainer);
+      })
+
+
+
+
+
+
+        },
+        income:()=>{
+         mainContainer.innerHTML = "" ;
+         const timeContainer = document.createElement("div");
+         const infocontiner = document.createElement("div");
+         infocontiner.classList.add("timeInfoabove");
+         timeContainer.classList.add("statisticMainContainer");
+         const but = document.createElement("button");
+         but.classList.add("backButton");
+         but.innerText = "back"
+         but.addEventListener("click",mainDataArray[4].pageRendering)
+         timeContainer.append(infocontiner,but);
+         mainContainer.append(timeContainer);
+   
+         const aboveButtons = [
+            {
+               id:1,
+               title: "Work hours",
+               color: "green",
+               operate: ()=>{
+                  mainDataArray[4].functions_store.hoursOfWork();
+               }
+            },
+            {
+               id:2,
+               title: "Outcome",
+               color: "red",
+               operate: ()=>{
+                  mainDataArray[4].functions_store.outcome();
+               }
+            },
+            {
+               id:3,
+               title: "Income",
+               color: "gold",
+               operate: ()=>{
+                  mainDataArray[4].functions_store.income();
+               }
+            },
+           ];
+        aboveButtons.forEach(el => {
+         const par = document.createElement("p");
+         const barrel = document.createElement("div");
+         const conta = document.createElement("div");
+         par.innerText = el.title;
+         barrel.style.backgroundColor = el.color;
+         conta.classList.add("conElem");
+         conta.addEventListener("click", el.operate);
+   
+         conta.append(par,barrel);
+         infocontiner.append(conta)
+        });
+
+      
+
+        mainDataArray[0].statisticData.forEach(el => {
+
+
+         const goalContainer = document.createElement("div");
+         const dateContainer = document.createElement("div");
+         const progressContainer = document.createElement("div");
+         dateContainer.classList.add("dateContainer");
+         progressContainer.classList.add("progressContainer");
+         goalContainer.classList.add("goalContainer");
+         dateContainer.innerText = el.date;
+
+         const incomeToday = el.timeMoney.income.random+ el.timeMoney.income.invest+el.timeMoney.income.borrowed;
+         const workdMoney = el.work.hoursToday*el.work.salaryPerHour;
+         const innn = incomeToday + workdMoney;
+
+         const inco = document.createElement("div");
+         inco.classList.add("incomeDiv");
+         inco.innerText = innn;
+         inco.style.width = `${innn*4}px`;
+ 
+         progressContainer.append(inco)
+         goalContainer.append(dateContainer,progressContainer)
+         timeContainer.append(goalContainer);
+       })
+
+        },
+        outcome:()=>{
+         mainContainer.innerHTML = "" ;
+         const timeContainer = document.createElement("div");
+         const infocontiner = document.createElement("div");
+         infocontiner.classList.add("timeInfoabove");
+         timeContainer.classList.add("statisticMainContainer");
+         const but = document.createElement("button");
+         but.classList.add("backButton");
+         but.innerText = "back"
+         but.addEventListener("click",mainDataArray[4].pageRendering)
+         timeContainer.append(infocontiner,but);
+         mainContainer.append(timeContainer);
+   
+         const aboveButtons = [
+            {
+               id:1,
+               title: "Work hours",
+               color: "green",
+               operate: ()=>{
+                  mainDataArray[4].functions_store.hoursOfWork();
+               }
+            },
+            {
+               id:2,
+               title: "Outcome",
+               color: "red",
+               operate: ()=>{
+                  mainDataArray[4].functions_store.outcome();
+               }
+            },
+            {
+               id:3,
+               title: "Income",
+               color: "gold",
+               operate: ()=>{
+                  mainDataArray[4].functions_store.income();
+               }
+            },
+           ];
+        aboveButtons.forEach(el => {
+         const par = document.createElement("p");
+         const barrel = document.createElement("div");
+         const conta = document.createElement("div");
+         par.innerText = el.title;
+         barrel.style.backgroundColor = el.color;
+         conta.classList.add("conElem");
+         conta.addEventListener("click", el.operate);
+   
+         conta.append(par,barrel);
+         infocontiner.append(conta)
+        });
+        mainDataArray[0].statisticData.forEach(el => {
+
+
+         const goalContainer = document.createElement("div");
+         const dateContainer = document.createElement("div");
+         const progressContainer = document.createElement("div");
+         dateContainer.classList.add("dateContainer");
+         progressContainer.classList.add("progressContainer");
+         goalContainer.classList.add("goalContainer");
+         dateContainer.innerText = el.date;
+
+         const outcomeToday = el.timeMoney.outcome[0].eat+el.timeMoney.outcome[0].rent+el.timeMoney.outcome[0].internet+
+         el.timeMoney.outcome[0].orange+el.timeMoney.outcome[0].locomotion+el.timeMoney.outcome[1].netflix+el.timeMoney.outcome[1].telran+
+         el.timeMoney.outcome[1].lifeXP+el.timeMoney.outcome[2].clothes+el.timeMoney.outcome[2].hygiene+el.timeMoney.outcome[2].fun+
+         el.timeMoney.outcome[3].charity+el.timeMoney.outcome[3].lost+el.timeMoney.outcome[3].lent;
+
+         const oucomeBox = document.createElement("div");
+         oucomeBox.classList.add("outcomeBox");
+         oucomeBox.innerText = outcomeToday;
+         oucomeBox.style.width = `${outcomeToday}px`;
+ 
+         progressContainer.append(oucomeBox);
+         goalContainer.append(dateContainer,progressContainer)
+         timeContainer.append(goalContainer);
+       })
+
         }
    }
-   }
+}
 
 ];
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
