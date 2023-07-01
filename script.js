@@ -287,13 +287,13 @@ const mainDataArray = [
    id:6,
    date:"2023-06-25",
    statistics:{
-       sleep: [0,50,6,0],
+       sleep: [0,50,6,0,17,40,24,0],
        work: [],
        learn: 
          {
             english:[6,20,7,39],
-            javaScript: [8,8,11,13],
-            react: []
+            javaScript: [8,8,10,32],
+            react: [10,45,11,53]
          }
        
    },
@@ -309,7 +309,7 @@ const mainDataArray = [
            eat: 0,
            rent: 0,
            internet: 0,
-           orange: 0,
+           orange: 5,
            locomotion: 0,
         },
         {
@@ -320,7 +320,7 @@ const mainDataArray = [
         {
            clothes: 0,
            hygiene: 0,
-           fun: 0
+           fun: 24
         },
         {
            charity: 0,
@@ -330,7 +330,7 @@ const mainDataArray = [
     ]
    },
    work:{
-       hoursToday: 5,
+       hoursToday: 4.5,
        salaryPerHour: 19,
        premium: 0,
        salary: 0,
@@ -342,13 +342,13 @@ const mainDataArray = [
    id:7,
    date:"2023-06-26",
    statistics:{
-       sleep: [],
-       work: [],
+       sleep: [7,30,10,22],
+       work: [2,0,6,30,20,30,24,0],
        learn: 
          {
             english:[],
             javaScript: [],
-            react: []
+            react: [18,20,19,20]
          }
        
    },
@@ -361,10 +361,10 @@ const mainDataArray = [
     },
     outcome:[
        {
-           eat: 0,
+           eat: 16.37,
            rent: 0,
            internet: 0,
-           orange: 0,
+           orange: 5,
            locomotion: 0,
         },
         {
@@ -375,7 +375,7 @@ const mainDataArray = [
         {
            clothes: 0,
            hygiene: 0,
-           fun: 0
+           fun: 10
         },
         {
            charity: 0,
@@ -385,7 +385,7 @@ const mainDataArray = [
     ]
    },
    work:{
-       hoursToday: 0,
+       hoursToday: 10.5,
        salaryPerHour: 19,
        premium: 0,
        salary: 0,
@@ -397,8 +397,8 @@ const mainDataArray = [
    id:8,
    date:"2023-06-27",
    statistics:{
-       sleep: [],
-       work: [],
+       sleep: [9,30,14,0],
+       work: [0,1,7,0,20,30,24,0],
        learn: 
          {
             english:[],
@@ -416,10 +416,10 @@ const mainDataArray = [
     },
     outcome:[
        {
-           eat: 0,
+           eat: 84,
            rent: 0,
            internet: 0,
-           orange: 0,
+           orange: 5,
            locomotion: 0,
         },
         {
@@ -428,19 +428,19 @@ const mainDataArray = [
            lifeXP: 0,
         },
         {
-           clothes: 0,
+           clothes: 15,
            hygiene: 0,
-           fun: 0
+           fun: 6.5
         },
         {
            charity: 0,
-           lost: 0,
+           lost: 109,
            lent: 0
         }
     ]
    },
    work:{
-       hoursToday: 0,
+       hoursToday: 9.5,
        salaryPerHour: 19,
        premium: 0,
        salary: 0,
@@ -452,13 +452,13 @@ const mainDataArray = [
    id:9,
    date:"2023-06-28",
    statistics:{
-       sleep: [],
-       work: [],
+       sleep: [7,30,12,53,18,15,20,56],
+       work: [0,1,6,0,22,0,24,0],
        learn: 
          {
             english:[],
             javaScript: [],
-            react: []
+            react: [13,17,14,30]
          }
        
    },
@@ -471,9 +471,9 @@ const mainDataArray = [
     },
     outcome:[
        {
-           eat: 0,
+           eat: 6,
            rent: 0,
-           internet: 0,
+           internet: 5,
            orange: 0,
            locomotion: 0,
         },
@@ -485,7 +485,7 @@ const mainDataArray = [
         {
            clothes: 0,
            hygiene: 0,
-           fun: 0
+           fun: 3
         },
         {
            charity: 0,
@@ -495,7 +495,7 @@ const mainDataArray = [
     ]
    },
    work:{
-       hoursToday: 0,
+       hoursToday: 7.5,
        salaryPerHour: 19,
        premium: 0,
        salary: 0,
@@ -507,13 +507,13 @@ const mainDataArray = [
    id:10,
    date:"2023-06-29",
    statistics:{
-       sleep: [],
-       work: [],
+       sleep: [7,0,11,46,17,45,20,14],
+       work: [0,1,5,30,22,0,24,0],
        learn: 
          {
             english:[],
             javaScript: [],
-            react: []
+            react: [13,15,17,9]
          }
        
    },
@@ -526,7 +526,7 @@ const mainDataArray = [
     },
     outcome:[
        {
-           eat: 0,
+           eat: 54,
            rent: 0,
            internet: 0,
            orange: 0,
@@ -540,7 +540,7 @@ const mainDataArray = [
         {
            clothes: 0,
            hygiene: 0,
-           fun: 0
+           fun: 25.5
         },
         {
            charity: 0,
@@ -550,7 +550,7 @@ const mainDataArray = [
     ]
    },
    work:{
-       hoursToday: 0,
+       hoursToday: 7.5,
        salaryPerHour: 19,
        premium: 0,
        salary: 0,
@@ -562,8 +562,63 @@ const mainDataArray = [
    id:11,
    date:"2023-06-30",
    statistics:{
-       sleep: [],
-       work: [],
+       sleep: [7,7,11,25,19,20,21,0],
+       work: [0,1,5,30,22,0,24,0],
+       learn: 
+         {
+            english:[],
+            javaScript: [],
+            react: [12,30,14,40]
+         }
+       
+   },
+   timeMoney:{
+    income:{
+       random: 0,
+       invest: 0,
+       borrowed: 0
+       
+    },
+    outcome:[
+       {
+           eat: 3.5,
+           rent: 0,
+           internet: 10,
+           orange: 0,
+           locomotion: 0,
+        },
+        {
+           netflix: 0,
+           telran: 0,
+           lifeXP: 0,
+        },
+        {
+           clothes: 0,
+           hygiene: 0,
+           fun: 4
+        },
+        {
+           charity: 0,
+           lost: 0,
+           lent: 0
+        }
+    ]
+   },
+   work:{
+       hoursToday: 7.5,
+       salaryPerHour: 19,
+       premium: 0,
+       salary: 0,
+   },
+   comment: "",
+   tasks_today: []
+},
+{
+   id:12,
+   date:"2023-07-1",
+   statistics:{
+       sleep: [8,0,12,45],
+       work: [0,1,5,30],
        learn: 
          {
             english:[],
@@ -581,7 +636,7 @@ const mainDataArray = [
     },
     outcome:[
        {
-           eat: 0,
+           eat: 50,
            rent: 0,
            internet: 0,
            orange: 0,
@@ -595,18 +650,18 @@ const mainDataArray = [
         {
            clothes: 0,
            hygiene: 0,
-           fun: 0
+           fun: 3
         },
         {
            charity: 0,
-           lost: 0,
+           lost: 18,
            lent: 0
         }
     ]
    },
    work:{
        hoursToday: 0,
-       salaryPerHour: 19,
+       salaryPerHour: 20.5,
        premium: 0,
        salary: 0,
    },
@@ -614,8 +669,8 @@ const mainDataArray = [
    tasks_today: []
 },
 {
-   id:12,
-   date:"2023-07-1",
+   id:13,
+   date:"2023-07-2",
    statistics:{
        sleep: [],
        work: [],
@@ -669,8 +724,283 @@ const mainDataArray = [
    tasks_today: []
 },
 {
-   id:13,
-   date:"2023-07-2",
+   id:14,
+   date:"2023-07-3",
+   statistics:{
+       sleep: [],
+       work: [],
+       learn: 
+         {
+            english:[],
+            javaScript: [],
+            react: []
+         }
+       
+   },
+   timeMoney:{
+    income:{
+       random: 0,
+       invest: 0,
+       borrowed: 0
+       
+    },
+    outcome:[
+       {
+           eat: 0,
+           rent: 0,
+           internet: 0,
+           orange: 0,
+           locomotion: 0,
+        },
+        {
+           netflix: 0,
+           telran: 0,
+           lifeXP: 0,
+        },
+        {
+           clothes: 0,
+           hygiene: 0,
+           fun: 0
+        },
+        {
+           charity: 0,
+           lost: 0,
+           lent: 0
+        }
+    ]
+   },
+   work:{
+       hoursToday: 0,
+       salaryPerHour: 19,
+       premium: 0,
+       salary: 0,
+   },
+   comment: "",
+   tasks_today: []
+},
+{
+   id:15,
+   date:"2023-07-4",
+   statistics:{
+       sleep: [],
+       work: [],
+       learn: 
+         {
+            english:[],
+            javaScript: [],
+            react: []
+         }
+       
+   },
+   timeMoney:{
+    income:{
+       random: 0,
+       invest: 0,
+       borrowed: 0
+       
+    },
+    outcome:[
+       {
+           eat: 0,
+           rent: 0,
+           internet: 0,
+           orange: 0,
+           locomotion: 0,
+        },
+        {
+           netflix: 0,
+           telran: 0,
+           lifeXP: 0,
+        },
+        {
+           clothes: 0,
+           hygiene: 0,
+           fun: 0
+        },
+        {
+           charity: 0,
+           lost: 0,
+           lent: 0
+        }
+    ]
+   },
+   work:{
+       hoursToday: 0,
+       salaryPerHour: 19,
+       premium: 0,
+       salary: 0,
+   },
+   comment: "",
+   tasks_today: []
+},
+{
+   id:16,
+   date:"2023-07-5",
+   statistics:{
+       sleep: [],
+       work: [],
+       learn: 
+         {
+            english:[],
+            javaScript: [],
+            react: []
+         }
+       
+   },
+   timeMoney:{
+    income:{
+       random: 0,
+       invest: 0,
+       borrowed: 0
+       
+    },
+    outcome:[
+       {
+           eat: 0,
+           rent: 0,
+           internet: 0,
+           orange: 0,
+           locomotion: 0,
+        },
+        {
+           netflix: 0,
+           telran: 0,
+           lifeXP: 0,
+        },
+        {
+           clothes: 0,
+           hygiene: 0,
+           fun: 0
+        },
+        {
+           charity: 0,
+           lost: 0,
+           lent: 0
+        }
+    ]
+   },
+   work:{
+       hoursToday: 0,
+       salaryPerHour: 19,
+       premium: 0,
+       salary: 0,
+   },
+   comment: "",
+   tasks_today: []
+},
+{
+   id:17,
+   date:"2023-07-6",
+   statistics:{
+       sleep: [],
+       work: [],
+       learn: 
+         {
+            english:[],
+            javaScript: [],
+            react: []
+         }
+       
+   },
+   timeMoney:{
+    income:{
+       random: 0,
+       invest: 0,
+       borrowed: 0
+       
+    },
+    outcome:[
+       {
+           eat: 0,
+           rent: 0,
+           internet: 0,
+           orange: 0,
+           locomotion: 0,
+        },
+        {
+           netflix: 0,
+           telran: 0,
+           lifeXP: 0,
+        },
+        {
+           clothes: 0,
+           hygiene: 0,
+           fun: 0
+        },
+        {
+           charity: 0,
+           lost: 0,
+           lent: 0
+        }
+    ]
+   },
+   work:{
+       hoursToday: 0,
+       salaryPerHour: 19,
+       premium: 0,
+       salary: 0,
+   },
+   comment: "",
+   tasks_today: []
+},
+{
+   id:18,
+   date:"2023-07-7",
+   statistics:{
+       sleep: [],
+       work: [],
+       learn: 
+         {
+            english:[],
+            javaScript: [],
+            react: []
+         }
+       
+   },
+   timeMoney:{
+    income:{
+       random: 0,
+       invest: 0,
+       borrowed: 0
+       
+    },
+    outcome:[
+       {
+           eat: 0,
+           rent: 0,
+           internet: 0,
+           orange: 0,
+           locomotion: 0,
+        },
+        {
+           netflix: 0,
+           telran: 0,
+           lifeXP: 0,
+        },
+        {
+           clothes: 0,
+           hygiene: 0,
+           fun: 0
+        },
+        {
+           charity: 0,
+           lost: 0,
+           lent: 0
+        }
+    ]
+   },
+   work:{
+       hoursToday: 0,
+       salaryPerHour: 19,
+       premium: 0,
+       salary: 0,
+   },
+   comment: "",
+   tasks_today: []
+},
+{
+   id:19,
+   date:"2023-07-8",
    statistics:{
        sleep: [],
        work: [],
@@ -751,7 +1081,7 @@ const mainDataArray = [
             title:"Work",
             color: "gray",
             operation: ()=>{
-               console.log("work")
+               mainDataArray[4].functions_store.hors_work()
             }
          },
          {
@@ -767,7 +1097,7 @@ const mainDataArray = [
             title:"Free",
             color: "white",
             operation: ()=>{
-               console.log("Free")
+               mainDataArray[4].functions_store.freeHours()
             }
          }
       ];
@@ -1363,7 +1693,17 @@ const mainDataArray = [
          const oucomeBox = document.createElement("div");
          oucomeBox.classList.add("outcomeBox");
          oucomeBox.innerText = outcomeToday;
-         oucomeBox.style.width = `${outcomeToday}px`;
+
+
+         if(outcomeToday > 99){
+            oucomeBox.style.width = "98%";
+         }
+         else{
+            oucomeBox.style.width = `${outcomeToday}%`;
+         }
+
+
+         
  
          progressContainer.append(oucomeBox);
          goalContainer.append(dateContainer,progressContainer)
@@ -1397,7 +1737,7 @@ const mainDataArray = [
                   title:"Work",
                   color: "gray",
                   operation: ()=>{
-                     console.log("work")
+                     mainDataArray[4].functions_store.hors_work()
                   }
                },
                {
@@ -1441,8 +1781,9 @@ const mainDataArray = [
                const lseapLength1 = (el.statistics.sleep[0]*60)+el.statistics.sleep[1];
                const lseapLength2 = (el.statistics.sleep[2]*60)+el.statistics.sleep[3];
                const tot = lseapLength2-lseapLength1;
-               const hoursgar = Math.round(tot/60);
-               sllleap.innerText = `${hoursgar} hours`;
+               const hoursgar =tot/60;
+               const hour2 = hoursgar.toFixed(2)
+               sllleap.innerText = `${hour2} hours`;
                sllleap.style.gridColumn = `1/${tot}`
             };
             if(el.statistics.sleep.length === 8){
@@ -1470,6 +1811,227 @@ const mainDataArray = [
                statContainer.append(dayContainer);
             })
 
+        },
+        hors_work:()=>{
+         mainContainer.innerHTML = "" ;
+         const statContainer = document.createElement("div");
+         const infoabout = document.createElement("div");
+         infoabout.classList.add("infoabout");
+         statContainer.classList.add("statisticMainContainer");
+         const but = document.createElement("button");
+         but.classList.add("backButton");
+         but.innerText = "back"
+         but.addEventListener("click",mainDataArray[0].pageRendering)
+         statContainer.append(but,infoabout);
+         mainContainer.append(statContainer);
+         const uppbuttons = [
+            {
+               id:1,
+               title:"Sleap",
+               color: "green",
+               operation: ()=>{
+                  mainDataArray[4].functions_store.hoursOfSleap()
+               }
+            },
+            {
+               id:2,
+               title:"Work",
+               color: "gray",
+               operation: ()=>{
+                  mainDataArray[4].functions_store.hors_work()
+               }
+            },
+            {
+               id:3,
+               title:"Learn",
+               color: "red",
+               operation: ()=>{
+                  console.log("Learn")
+               }
+            },
+            {
+               id:4,
+               title:"Free",
+               color: "white",
+               operation: ()=>{
+                  console.log("Free")
+               }
+            }
+         ];
+         uppbuttons.forEach(el => {
+            const cont = document.createElement("div");
+            const par = document.createElement("p");
+            const color = document.createElement("div");
+            color.style.backgroundColor = el.color;
+            par.innerText = el.title;
+            cont.classList.add("cont");
+            cont.append(par,color);
+            infoabout.append(cont);
+            cont.addEventListener("click",el.operation)
+            
+         });
+         mainDataArray[0].statisticData.forEach(el => {
+            const dayContainer = document.createElement('div');
+            dayContainer.classList.add("dayContainer");
+            const sllleap = document.createElement("div");
+            sllleap.classList.add("justSleap");
+
+
+           if(el.statistics.work.length === 4){
+
+            const lseapLength1 = (el.statistics.work[0]*60)+el.statistics.work[1];
+            const lseapLength2 = (el.statistics.work[2]*60)+el.statistics.work[3];
+            const tot = lseapLength2-lseapLength1;
+            const hoursgar =tot/60;
+            const hour2 = hoursgar.toFixed(2)
+            sllleap.innerText = `${hour2} hours`;
+            sllleap.style.gridColumn = `1/${tot}`
+         };
+         if(el.statistics.work.length === 8){
+            const lseapLength1 = (el.statistics.work[0]*60)+el.statistics.work[1];
+            const lseapLength2 = (el.statistics.work[2]*60)+el.statistics.work[3];
+
+            const lseapLength3 = (el.statistics.work[4]*60)+el.statistics.work[5];
+            const lseapLength4 = (el.statistics.work[6]*60)+el.statistics.work[7];
+
+            const tot2 = lseapLength2-lseapLength1;
+            const tot3 = lseapLength4-lseapLength3;
+            const total = tot2+tot3;
+            sllleap.style.gridColumn = `1/${total}`
+
+            const hoursgar = Math.round(total/60);
+            sllleap.innerText = `${hoursgar} hours`;
+         }
+            
+
+            
+            
+
+
+             dayContainer.append(sllleap);
+            statContainer.append(dayContainer);
+         })
+
+        },
+        freeHours:()=>{
+         mainContainer.innerHTML = "" ;
+         const statContainer = document.createElement("div");
+         const infoabout = document.createElement("div");
+         infoabout.classList.add("infoabout");
+         statContainer.classList.add("statisticMainContainer");
+         const but = document.createElement("button");
+         but.classList.add("backButton");
+         but.innerText = "back"
+         but.addEventListener("click",mainDataArray[0].pageRendering)
+         statContainer.append(but,infoabout);
+         mainContainer.append(statContainer);
+         const uppbuttons = [
+            {
+               id:1,
+               title:"Sleap",
+               color: "green",
+               operation: ()=>{
+                  mainDataArray[4].functions_store.hoursOfSleap()
+               }
+            },
+            {
+               id:2,
+               title:"Work",
+               color: "gray",
+               operation: ()=>{
+                  mainDataArray[4].functions_store.hors_work()
+               }
+            },
+            {
+               id:3,
+               title:"Learn",
+               color: "red",
+               operation: ()=>{
+                  console.log("Learn")
+               }
+            },
+            {
+               id:4,
+               title:"Free",
+               color: "white",
+               operation: ()=>{
+                  console.log("Free")
+               }
+            }
+         ];
+         uppbuttons.forEach(el => {
+            const cont = document.createElement("div");
+            const par = document.createElement("p");
+            const color = document.createElement("div");
+            color.style.backgroundColor = el.color;
+            par.innerText = el.title;
+            cont.classList.add("cont");
+            cont.append(par,color);
+            infoabout.append(cont);
+            cont.addEventListener("click",el.operation)
+            
+         });
+         mainDataArray[0].statisticData.forEach(el => {
+            const dayContainer = document.createElement('div');
+            dayContainer.classList.add("dayContainer");
+            const sllleap = document.createElement("div");
+            sllleap.classList.add("justSleap");
+
+            let work = 0;
+            let sleep = 0;
+
+            if(el.statistics.work.length === 4){
+
+               const work1 = (el.statistics.work[0]*60)+el.statistics.work[1];
+               const work2 = (el.statistics.work[2]*60)+el.statistics.work[3];
+               const worksa = (work2-work1)/60;
+               work = worksa.toFixed(2);
+
+            }
+            if(el.statistics.work.length === 8){
+
+               const work1 = (el.statistics.work[0]*60)+el.statistics.work[1];
+               const work2 = (el.statistics.work[2]*60)+el.statistics.work[3];
+               const work3 = (el.statistics.work[4]*60)+el.statistics.work[5];
+               const work4 = (el.statistics.work[6]*60)+el.statistics.work[7];
+               const one = work2-work1;
+               const two = work4-work3;
+                const workBa = (one+two)/60;
+                work = workBa.toFixed(2)  
+            }
+            if(el.statistics.sleep.length === 4){
+
+               const work1 = (el.statistics.sleep[0]*60)+el.statistics.sleep[1];
+               const work2 = (el.statistics.sleep[2]*60)+el.statistics.sleep[3];
+               const worksa = (work2-work1)/60;
+               sleep = worksa.toFixed(2);
+
+            }
+            if(el.statistics.sleep.length === 8){
+
+               const work1 = (el.statistics.sleep[0]*60)+el.statistics.sleep[1];
+               const work2 = (el.statistics.sleep[2]*60)+el.statistics.sleep[3];
+               const work3 = (el.statistics.sleep[4]*60)+el.statistics.sleep[5];
+               const work4 = (el.statistics.sleep[6]*60)+el.statistics.sleep[7];
+               const one = work2-work1;
+               const two = work4-work3;
+                const workBa = (one+two)/60;
+                sleep = workBa.toFixed(2)  
+            }
+            console.log(work)
+            console.log(sleep)
+
+          
+         
+            
+
+            
+            
+
+
+             dayContainer.append(sllleap);
+            statContainer.append(dayContainer);
+         })
         }
    }
 }

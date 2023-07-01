@@ -137,6 +137,7 @@
     height: 2vw;
     width: 90%;
     display: flex;
+    background-color: gray;
 }
 .dateContainer{
 height: 100%;
@@ -179,7 +180,7 @@ background-color: rgb(8, 106, 29);
 }
 .justHours{
     height: 100%;
-    width: 2vw;
+    width: 3vw;
     background-color: aliceblue;
 }
 .hoursLong{
