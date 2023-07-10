@@ -617,13 +617,13 @@ const mainDataArray = [
    id:12,
    date:"2023-07-1",
    statistics:{
-       sleep: [8,0,12,45],
+       sleep: [8,0,12,45,18,30,24,0],
        work: [0,1,5,30],
        learn: 
          {
             english:[],
             javaScript: [],
-            react: []
+            react: [14,48,17,50]
          }
        
    },
@@ -672,13 +672,13 @@ const mainDataArray = [
    id:13,
    date:"2023-07-2",
    statistics:{
-       sleep: [],
-       work: [],
+       sleep: [0,1,5,0,5,40,8,18],
+       work: [21,0,24,0],
        learn: 
          {
             english:[],
             javaScript: [],
-            react: []
+            react: [8,30,10,50,15,30,17,40]
          }
        
    },
@@ -691,7 +691,7 @@ const mainDataArray = [
     },
     outcome:[
        {
-           eat: 0,
+           eat: 6,
            rent: 0,
            internet: 0,
            orange: 0,
@@ -715,8 +715,8 @@ const mainDataArray = [
     ]
    },
    work:{
-       hoursToday: 0,
-       salaryPerHour: 19,
+       hoursToday: 7.5,
+       salaryPerHour: 20.5,
        premium: 0,
        salary: 0,
    },
@@ -727,13 +727,13 @@ const mainDataArray = [
    id:14,
    date:"2023-07-3",
    statistics:{
-       sleep: [],
-       work: [],
+       sleep: [5,40,10,55],
+       work: [0,1,4,30,20,30,24,0],
        learn: 
          {
             english:[],
             javaScript: [],
-            react: []
+            react: [12,15,14,13]
          }
        
    },
@@ -748,8 +748,8 @@ const mainDataArray = [
        {
            eat: 0,
            rent: 0,
-           internet: 0,
-           orange: 0,
+           internet: 5,
+           orange: 7,
            locomotion: 0,
         },
         {
@@ -760,7 +760,7 @@ const mainDataArray = [
         {
            clothes: 0,
            hygiene: 0,
-           fun: 0
+           fun: 4
         },
         {
            charity: 0,
@@ -770,8 +770,8 @@ const mainDataArray = [
     ]
    },
    work:{
-       hoursToday: 0,
-       salaryPerHour: 19,
+       hoursToday: 11,
+       salaryPerHour: 20.5,
        premium: 0,
        salary: 0,
    },
@@ -782,13 +782,13 @@ const mainDataArray = [
    id:15,
    date:"2023-07-4",
    statistics:{
-       sleep: [],
-       work: [],
+       sleep: [9,15,13,25],
+       work: [0,1,7,30,20,30,24,0],
        learn: 
          {
-            english:[],
+            english:[17,0,18,0],
             javaScript: [],
-            react: []
+            react: [14,0,16,15]
          }
        
    },
@@ -801,9 +801,9 @@ const mainDataArray = [
     },
     outcome:[
        {
-           eat: 0,
+           eat: 57,
            rent: 0,
-           internet: 0,
+           internet: 5,
            orange: 0,
            locomotion: 0,
         },
@@ -815,18 +815,18 @@ const mainDataArray = [
         {
            clothes: 0,
            hygiene: 0,
-           fun: 0
+           fun: 40
         },
         {
            charity: 0,
-           lost: 0,
+           lost: 6,
            lent: 0
         }
     ]
    },
    work:{
-       hoursToday: 0,
-       salaryPerHour: 19,
+       hoursToday: 10,
+       salaryPerHour: 20.5,
        premium: 0,
        salary: 0,
    },
@@ -837,13 +837,13 @@ const mainDataArray = [
    id:16,
    date:"2023-07-5",
    statistics:{
-       sleep: [],
-       work: [],
+       sleep: [7,35,14,27],
+       work: [0,1,6,30,22,0,24,0],
        learn: 
          {
-            english:[],
+            english:[17,0,18,0],
             javaScript: [],
-            react: []
+            react: [14,30,16,0]
          }
        
    },
@@ -856,7 +856,7 @@ const mainDataArray = [
     },
     outcome:[
        {
-           eat: 0,
+           eat: 9.5,
            rent: 0,
            internet: 0,
            orange: 0,
@@ -870,7 +870,7 @@ const mainDataArray = [
         {
            clothes: 0,
            hygiene: 0,
-           fun: 0
+           fun: 3.5
         },
         {
            charity: 0,
@@ -880,8 +880,8 @@ const mainDataArray = [
     ]
    },
    work:{
-       hoursToday: 0,
-       salaryPerHour: 19,
+       hoursToday: 8.5,
+       salaryPerHour: 20.5,
        premium: 0,
        salary: 0,
    },
@@ -890,10 +890,10 @@ const mainDataArray = [
 },
 {
    id:17,
-   date:"2023-07-6",
+   date:"2023-06-6",
    statistics:{
-       sleep: [],
-       work: [],
+       sleep: [7,0,13,52],
+       work: [0,1,6,30,22,0,24,0],
        learn: 
          {
             english:[],
@@ -911,9 +911,9 @@ const mainDataArray = [
     },
     outcome:[
        {
-           eat: 0,
+           eat: 57,
            rent: 0,
-           internet: 0,
+           internet: 15,
            orange: 0,
            locomotion: 0,
         },
@@ -925,18 +925,18 @@ const mainDataArray = [
         {
            clothes: 0,
            hygiene: 0,
-           fun: 0
+           fun: 21.5
         },
         {
            charity: 0,
            lost: 0,
-           lent: 0
+           lent: 6
         }
     ]
    },
    work:{
-       hoursToday: 0,
-       salaryPerHour: 19,
+       hoursToday: 8,
+       salaryPerHour: 20.5,
        premium: 0,
        salary: 0,
    },
@@ -945,15 +945,15 @@ const mainDataArray = [
 },
 {
    id:18,
-   date:"2023-07-7",
+   date:"2023-07-07",
    statistics:{
-       sleep: [],
-       work: [],
+       sleep: [7,30,12,30],
+       work: [0,1,6,0,22,0,24,0],
        learn: 
          {
             english:[],
             javaScript: [],
-            react: []
+            react: [13,20,17,17]
          }
        
    },
@@ -980,7 +980,7 @@ const mainDataArray = [
         {
            clothes: 0,
            hygiene: 0,
-           fun: 0
+           fun: 3.5
         },
         {
            charity: 0,
@@ -990,8 +990,8 @@ const mainDataArray = [
     ]
    },
    work:{
-       hoursToday: 0,
-       salaryPerHour: 19,
+       hoursToday: 8,
+       salaryPerHour: 20.5,
        premium: 0,
        salary: 0,
    },
@@ -1000,7 +1000,172 @@ const mainDataArray = [
 },
 {
    id:19,
-   date:"2023-07-8",
+   date:"2023-08-8",
+   statistics:{
+       sleep: [7,30,10,32,21,12,24,0],
+       work: [0,1,6,0],
+       learn: 
+         {
+            english:[],
+            javaScript: [],
+            react: [12,10,14,0]
+         }
+       
+   },
+   timeMoney:{
+    income:{
+       random: 0,
+       invest: 0,
+       borrowed: 0
+       
+    },
+    outcome:[
+       {
+           eat: 80.5,
+           rent: 0,
+           internet: 0,
+           orange: 0,
+           locomotion: 0,
+        },
+        {
+           netflix: 0,
+           telran: 0,
+           lifeXP: 0,
+        },
+        {
+           clothes: 0,
+           hygiene: 0,
+           fun: 0
+        },
+        {
+           charity: 0,
+           lost: 0,
+           lent: 0
+        }
+    ]
+   },
+   work:{
+       hoursToday: 0,
+       salaryPerHour: 20.5,
+       premium: 0,
+       salary: 0,
+   },
+   comment: "",
+   tasks_today: []
+},
+{
+   id:20,
+   date:"2023-9-08",
+   statistics:{
+       sleep: [0,1,8,0],
+       work: [21,0,24,0],
+       learn: 
+         {
+            english:[],
+            javaScript: [],
+            react: []
+         }
+       
+   },
+   timeMoney:{
+    income:{
+       random: 0,
+       invest: 0,
+       borrowed: 0
+       
+    },
+    outcome:[
+       {
+           eat: 0,
+           rent: 0,
+           internet: 0,
+           orange: 0,
+           locomotion: 0,
+        },
+        {
+           netflix: 0,
+           telran: 0,
+           lifeXP: 0,
+        },
+        {
+           clothes: 0,
+           hygiene: 0,
+           fun: 3
+        },
+        {
+           charity: 0,
+           lost: 0,
+           lent: 0
+        }
+    ]
+   },
+   work:{
+       hoursToday: 7,
+       salaryPerHour: 20.5,
+       premium: 0,
+       salary: 0,
+   },
+   comment: "",
+   tasks_today: []
+},
+{
+   id:19,
+   date:"2023-10-8",
+   statistics:{
+       sleep: [5,0,11,40],
+       work: [0,1,4,0],
+       learn: 
+         {
+            english:[],
+            javaScript: [],
+            react: []
+         }
+       
+   },
+   timeMoney:{
+    income:{
+       random: 0,
+       invest: 0,
+       borrowed: 0
+       
+    },
+    outcome:[
+       {
+           eat: 6,
+           rent: 0,
+           internet: 0,
+           orange: 0,
+           locomotion: 0,
+        },
+        {
+           netflix: 0,
+           telran: 0,
+           lifeXP: 0,
+        },
+        {
+           clothes: 0,
+           hygiene: 0,
+           fun: 0
+        },
+        {
+           charity: 0,
+           lost: 0,
+           lent: 0
+        }
+    ]
+   },
+   work:{
+       hoursToday: 0,
+       salaryPerHour: 20.5,
+       premium: 0,
+       salary: 0,
+   },
+   comment: "",
+   tasks_today: []
+},
+{
+   id:21,
+   date:"2023-12-8",
    statistics:{
        sleep: [],
        work: [],
@@ -1046,7 +1211,502 @@ const mainDataArray = [
    },
    work:{
        hoursToday: 0,
-       salaryPerHour: 19,
+       salaryPerHour: 20.5,
+       premium: 0,
+       salary: 0,
+   },
+   comment: "",
+   tasks_today: []
+},
+{
+   id:22,
+   date:"2023-13-8",
+   statistics:{
+       sleep: [],
+       work: [],
+       learn: 
+         {
+            english:[],
+            javaScript: [],
+            react: []
+         }
+       
+   },
+   timeMoney:{
+    income:{
+       random: 0,
+       invest: 0,
+       borrowed: 0
+       
+    },
+    outcome:[
+       {
+           eat: 0,
+           rent: 0,
+           internet: 0,
+           orange: 0,
+           locomotion: 0,
+        },
+        {
+           netflix: 0,
+           telran: 0,
+           lifeXP: 0,
+        },
+        {
+           clothes: 0,
+           hygiene: 0,
+           fun: 0
+        },
+        {
+           charity: 0,
+           lost: 0,
+           lent: 0
+        }
+    ]
+   },
+   work:{
+       hoursToday: 0,
+       salaryPerHour: 20.5,
+       premium: 0,
+       salary: 0,
+   },
+   comment: "",
+   tasks_today: []
+},
+{
+   id:23,
+   date:"2023-14-8",
+   statistics:{
+       sleep: [],
+       work: [],
+       learn: 
+         {
+            english:[],
+            javaScript: [],
+            react: []
+         }
+       
+   },
+   timeMoney:{
+    income:{
+       random: 0,
+       invest: 0,
+       borrowed: 0
+       
+    },
+    outcome:[
+       {
+           eat: 0,
+           rent: 0,
+           internet: 0,
+           orange: 0,
+           locomotion: 0,
+        },
+        {
+           netflix: 0,
+           telran: 0,
+           lifeXP: 0,
+        },
+        {
+           clothes: 0,
+           hygiene: 0,
+           fun: 0
+        },
+        {
+           charity: 0,
+           lost: 0,
+           lent: 0
+        }
+    ]
+   },
+   work:{
+       hoursToday: 0,
+       salaryPerHour: 20.5,
+       premium: 0,
+       salary: 0,
+   },
+   comment: "",
+   tasks_today: []
+},
+{
+   id:24,
+   date:"2023-15-8",
+   statistics:{
+       sleep: [],
+       work: [],
+       learn: 
+         {
+            english:[],
+            javaScript: [],
+            react: []
+         }
+       
+   },
+   timeMoney:{
+    income:{
+       random: 0,
+       invest: 0,
+       borrowed: 0
+       
+    },
+    outcome:[
+       {
+           eat: 0,
+           rent: 0,
+           internet: 0,
+           orange: 0,
+           locomotion: 0,
+        },
+        {
+           netflix: 0,
+           telran: 0,
+           lifeXP: 0,
+        },
+        {
+           clothes: 0,
+           hygiene: 0,
+           fun: 0
+        },
+        {
+           charity: 0,
+           lost: 0,
+           lent: 0
+        }
+    ]
+   },
+   work:{
+       hoursToday: 0,
+       salaryPerHour: 20.5,
+       premium: 0,
+       salary: 0,
+   },
+   comment: "",
+   tasks_today: []
+},
+{
+   id:25,
+   date:"2023-16-8",
+   statistics:{
+       sleep: [],
+       work: [],
+       learn: 
+         {
+            english:[],
+            javaScript: [],
+            react: []
+         }
+       
+   },
+   timeMoney:{
+    income:{
+       random: 0,
+       invest: 0,
+       borrowed: 0
+       
+    },
+    outcome:[
+       {
+           eat: 0,
+           rent: 0,
+           internet: 0,
+           orange: 0,
+           locomotion: 0,
+        },
+        {
+           netflix: 0,
+           telran: 0,
+           lifeXP: 0,
+        },
+        {
+           clothes: 0,
+           hygiene: 0,
+           fun: 0
+        },
+        {
+           charity: 0,
+           lost: 0,
+           lent: 0
+        }
+    ]
+   },
+   work:{
+       hoursToday: 0,
+       salaryPerHour: 20.5,
+       premium: 0,
+       salary: 0,
+   },
+   comment: "",
+   tasks_today: []
+},
+{
+   id:26,
+   date:"2023-17-8",
+   statistics:{
+       sleep: [],
+       work: [],
+       learn: 
+         {
+            english:[],
+            javaScript: [],
+            react: []
+         }
+       
+   },
+   timeMoney:{
+    income:{
+       random: 0,
+       invest: 0,
+       borrowed: 0
+       
+    },
+    outcome:[
+       {
+           eat: 0,
+           rent: 0,
+           internet: 0,
+           orange: 0,
+           locomotion: 0,
+        },
+        {
+           netflix: 0,
+           telran: 0,
+           lifeXP: 0,
+        },
+        {
+           clothes: 0,
+           hygiene: 0,
+           fun: 0
+        },
+        {
+           charity: 0,
+           lost: 0,
+           lent: 0
+        }
+    ]
+   },
+   work:{
+       hoursToday: 0,
+       salaryPerHour: 20.5,
+       premium: 0,
+       salary: 0,
+   },
+   comment: "",
+   tasks_today: []
+},
+{
+   id:27,
+   date:"2023-18-8",
+   statistics:{
+       sleep: [],
+       work: [],
+       learn: 
+         {
+            english:[],
+            javaScript: [],
+            react: []
+         }
+       
+   },
+   timeMoney:{
+    income:{
+       random: 0,
+       invest: 0,
+       borrowed: 0
+       
+    },
+    outcome:[
+       {
+           eat: 0,
+           rent: 0,
+           internet: 0,
+           orange: 0,
+           locomotion: 0,
+        },
+        {
+           netflix: 0,
+           telran: 0,
+           lifeXP: 0,
+        },
+        {
+           clothes: 0,
+           hygiene: 0,
+           fun: 0
+        },
+        {
+           charity: 0,
+           lost: 0,
+           lent: 0
+        }
+    ]
+   },
+   work:{
+       hoursToday: 0,
+       salaryPerHour: 20.5,
+       premium: 0,
+       salary: 0,
+   },
+   comment: "",
+   tasks_today: []
+},
+{
+   id:28,
+   date:"2023-19-8",
+   statistics:{
+       sleep: [],
+       work: [],
+       learn: 
+         {
+            english:[],
+            javaScript: [],
+            react: []
+         }
+       
+   },
+   timeMoney:{
+    income:{
+       random: 0,
+       invest: 0,
+       borrowed: 0
+       
+    },
+    outcome:[
+       {
+           eat: 0,
+           rent: 0,
+           internet: 0,
+           orange: 0,
+           locomotion: 0,
+        },
+        {
+           netflix: 0,
+           telran: 0,
+           lifeXP: 0,
+        },
+        {
+           clothes: 0,
+           hygiene: 0,
+           fun: 0
+        },
+        {
+           charity: 0,
+           lost: 0,
+           lent: 0
+        }
+    ]
+   },
+   work:{
+       hoursToday: 0,
+       salaryPerHour: 20.5,
+       premium: 0,
+       salary: 0,
+   },
+   comment: "",
+   tasks_today: []
+},
+{
+   id:29,
+   date:"2023-20-8",
+   statistics:{
+       sleep: [],
+       work: [],
+       learn: 
+         {
+            english:[],
+            javaScript: [],
+            react: []
+         }
+       
+   },
+   timeMoney:{
+    income:{
+       random: 0,
+       invest: 0,
+       borrowed: 0
+       
+    },
+    outcome:[
+       {
+           eat: 0,
+           rent: 0,
+           internet: 0,
+           orange: 0,
+           locomotion: 0,
+        },
+        {
+           netflix: 0,
+           telran: 0,
+           lifeXP: 0,
+        },
+        {
+           clothes: 0,
+           hygiene: 0,
+           fun: 0
+        },
+        {
+           charity: 0,
+           lost: 0,
+           lent: 0
+        }
+    ]
+   },
+   work:{
+       hoursToday: 0,
+       salaryPerHour: 20.5,
+       premium: 0,
+       salary: 0,
+   },
+   comment: "",
+   tasks_today: []
+},
+{
+   id:30,
+   date:"2023-21-8",
+   statistics:{
+       sleep: [],
+       work: [],
+       learn: 
+         {
+            english:[],
+            javaScript: [],
+            react: []
+         }
+       
+   },
+   timeMoney:{
+    income:{
+       random: 0,
+       invest: 0,
+       borrowed: 0
+       
+    },
+    outcome:[
+       {
+           eat: 0,
+           rent: 0,
+           internet: 0,
+           orange: 0,
+           locomotion: 0,
+        },
+        {
+           netflix: 0,
+           telran: 0,
+           lifeXP: 0,
+        },
+        {
+           clothes: 0,
+           hygiene: 0,
+           fun: 0
+        },
+        {
+           charity: 0,
+           lost: 0,
+           lent: 0
+        }
+    ]
+   },
+   work:{
+       hoursToday: 0,
+       salaryPerHour: 20.5,
        premium: 0,
        salary: 0,
    },
